@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ساري</string>
+    <string name="activity_main_store_tab_item">المتجر</string>
+    <string name="activity_main_requests_tab_item">الطلبات</string>
+    <string name="activity_main_profile_tab_item">حسابي</string>
+    <string name="error_handler_no_internet_connection">لا يوجد انترنت</string>
+    <string name="common_reload">إعادة التحميل</string>
+    <string name="error_handler_something_went_wrong">عذرًا، لقد حدث خطأ ما نرجو المحاولة لاحقاً</string>
+    <string name="dialog_country_code_search_bar_hint">ابحث عن اللي ناقصك</string>
+
+</resources>

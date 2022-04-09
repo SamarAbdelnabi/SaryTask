@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#1ca68d</color>
+    <color name="colorAccent">#57BAA8</color>
+    <color name="colorPurple">#5044B8</color>
+    <color name="lightColor">#FEDD02</color>
+    <color name="saryGreenColor">#28D8B7</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="windowBackground">#ffffff</color>
+    <color name="homeBackground">#fafafa</color>
+    <color name="appbarColor">#ffffff</color>
+
+    <color name="always_white">#ffffff</color>
+
+    <color name="secondaryTextColor">#3A3A3A</color>
+    <color name="primaryTextColor">#3A3A3A</color>
+    <color name="card_view_background">#FFFFFF</color>
+    <color name="infoCardColor">#FFFFFF</color>
+    <color name="menu_selected_color">#404040</color>
+    <color name="menu_unselected_color">#BEC1C1</color>
+
+    <color name="lightGray">#AAAEAE</color>
+    <color name="lightGrayOpac">#33AAAEAE</color>
+    <color name="lightGrayOpacLessTransparent">#BABABA</color>
+    <color name="grayTextColor">#888888</color>
+
+    <!--    Dialogs-->
+    <color name="dialog_confirmation_type">#0e8c60</color>
+    <color name="dialog_error_type">#e02020</color>
+    <color name="dialog_warn_type">#f6a100</color>
+
+    <color name="nav_bar_scrim">#C3000000</color>
+
+</resources>

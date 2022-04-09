@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sary</string>
+
+    <string name="activity_main_store_tab_item">المتجر</string>
+    <string name="activity_main_requests_tab_item">الطلبات</string>
+    <string name="activity_main_profile_tab_item">حسابي</string>
+    <string name="error_handler_no_internet_connection">لا يوجد انترنت</string>
+    <string name="common_reload">إعادة التحميل</string>
+    <string name="error_handler_something_went_wrong">Something went wrong, please try again later</string>
+    <string name="dialog_country_code_search_bar_hint">Search</string>
+
+</resources>

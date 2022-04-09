@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="windowBackground">#0F1318</color>
+    <color name="homeBackground">#0F1318</color>
+    <color name="appbarColor">#161d24</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#B3FFFFFF</color>
+    <color name="card_view_background">#1C1C1E</color>
+    <color name="infoCardColor">#161d24</color>
+
+    <color name="menu_selected_color">#ffffff</color>
+    <color name="menu_unselected_color">#BEC1C1</color>
+    <color name="nav_bar_scrim">#0F1318</color>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin16"
+        android:background="@drawable/semi_square_box_background"
+        android:backgroundTint="#e5e5e5"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableTint="@color/lightGray"
+        android:textColor="@color/lightGray"
+        android:textColorHint="@color/lightGray"
+        android:drawablePadding="@dimen/margin16"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:hint="@string/dialog_country_code_search_bar_hint"
+        android:lines="1"
+        android:padding="@dimen/margin8"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textDirection="anyRtl"
+        android:visibility="visible"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <RelativeLayout
+        android:id="@+id/crosuelContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin16"
+        app:layout_constraintTop_toBottomOf="@id/searchBar">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ads_view_pager_height"
+            android:overScrollMode="never" />
+
+        <com.kenilt.circleindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/viewPager"
+            android:layout_marginVertical="@dimen/margin8"
+            app:fillColor="@color/colorAccent"
+            app:pageColor="@color/grayTextColor"
+            app:radius="5dp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/catalogRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/crosuelContainer"
+        tools:listitem="@layout/smart_data_type_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
